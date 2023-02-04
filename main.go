@@ -20,6 +20,7 @@ func main() {
 
 	var checkedEmail bool = checkEmail(email)
 
+	// checking if email is invalid
 	for !checkedEmail {
 		fmt.Print("Your email is incorrect!\n")
 		fmt.Print("Enter your email: ")
